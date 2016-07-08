@@ -1,0 +1,33 @@
+# IDE based files and folders #
+.buildpath
+.project
+.settings
+.idea
+
+# Files and folders that should not be pushed to the repo #
+/etc/config.json
+.vagrant/*
+
+# Apple Files #
+.DS_Store
+
+# COMPOSER Files #
+vendor/*
+composer.phar
+
+# Node / Grunt Contribs #
+/node_modules
+
+# Bower Components #
+/bower_components/
+/www/media/*/vendor/
+/www/media/css/temp.css
+
+# Build/Test related files #
+cache.properties
+build/api/*
+build/logs/*
+current_SHA
+
+# Ignore uploads #
+www/uploads/*
